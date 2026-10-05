@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://aakib-portfolio-omega.vercel.app"})
 public class ProfileController {
 
     @GetMapping("/api/profile")
